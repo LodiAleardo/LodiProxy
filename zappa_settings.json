@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "app_function": "app.app",
+    "aws_region": "eu-west-1",
+    "profile_name": "default",
+    "project_name": "lodiproxy",
+    "runtime": "python3.9",
+    "s3_bucket": "zappa-d906q7yih",
+    "apigateway_enabled": true
+  }
+}

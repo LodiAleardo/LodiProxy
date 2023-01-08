@@ -22,6 +22,7 @@ def send_post():
                       params=data.get("params", None),
                       json=data.get("json", None),
                       headers=data.get("headers", None),
+                      timeout=data.get("timeout", None),
                       )
 
     pickled_response = pickle.dumps(r)

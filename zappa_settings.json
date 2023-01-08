@@ -6,6 +6,21 @@
     "project_name": "lodiproxy",
     "runtime": "python3.9",
     "s3_bucket": "zappa-d906q7yih",
-    "apigateway_enabled": true
+    "apigateway_enabled": true,
+    "keep_warm": false,
+    "debug": false,
+    "memory_size": 128
+  },
+  "eu-west-1": {
+    "aws_region": "eu-west-1",
+    "extends": "dev"
+  },
+  "eu-west-1-b": {
+    "aws_region": "eu-west-1",
+    "extends": "dev"
+  },
+  "prod": {
+    "aws_region": "eu-west-1",
+    "extends": "dev"
   }
 }
